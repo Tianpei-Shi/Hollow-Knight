@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.coplaydev.unity-mcp": {
+      "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.1.31"
+      },
+      "hash": "b92c05a25820cfc9f59ce4094eb46aaec8632ea2"
+    },
     "com.unity.2d.animation": {
       "version": "13.0.4",
       "depth": 0,
@@ -100,7 +110,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.28",
+      "version": "1.8.29",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -117,13 +127,6 @@
         "com.unity.splines": "2.0.0",
         "com.unity.modules.imgui": "1.0.0"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.collab-proxy": {
-      "version": "2.11.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
@@ -146,7 +149,7 @@
       "dependencies": {}
     },
     "com.unity.ide.rider": {
-      "version": "3.0.39",
+      "version": "3.0.40",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -155,7 +158,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.26",
+      "version": "2.0.27",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -192,6 +195,25 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.probuilder": {
+      "version": "6.0.9",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "17.0.3",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
@@ -235,7 +257,7 @@
     },
     "com.unity.settings-manager": {
       "version": "2.1.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -271,7 +293,7 @@
       }
     },
     "com.unity.test-framework.performance": {
-      "version": "3.2.0",
+      "version": "3.4.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -281,7 +303,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.8.11",
+      "version": "1.8.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -299,6 +321,15 @@
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "com.unity.visualeffectgraph": {
+      "version": "17.3.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.shadergraph": "17.3.0",
+        "com.unity.render-pipelines.core": "17.3.0"
       }
     },
     "com.unity.visualscripting": {
